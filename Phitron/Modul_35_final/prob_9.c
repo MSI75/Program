@@ -6,14 +6,6 @@ int gcd(int a, int b){
 
     return gcd(b%a, a);
 }
-
-// int findGCD(int arr[], int n){
-//     int result = arr[0];
-//     for(int i = 0; i<n; i++)
-//         result = gcd(arr[i],result);
-//     return result;
-// }
-
 void getInput(int arr[], int n){
     for(int i= 0; i<n; i++){
         scanf("%d",&arr[i]);
