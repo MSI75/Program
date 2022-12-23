@@ -89,3 +89,36 @@
 //     }
 // }
 
+#include<stdio.h>
+#include<string.h>
+#include<math.h>
+
+int main(){
+    // 2
+    int l, b, h, n;
+    scanf("%d",&n);
+    l=b=h=n;
+    int surface = 6*n*n;
+    printf("%d\n",surface);
+// 3
+    // int n;
+    // scanf("%d",&n);
+    //        char ch[n];
+    // scanf("%s",ch);
+    // for(int i = 1; i<=n; i++){
+    //     for(int j = n-i; 0<j; j--){
+    //         printf(" ");
+    //     }
+    //     for(int k = 0; k<n; k++){
+    //         printf("%s",ch);
+    //     }
+    //     printf("\n");
+    // }
+
+    // 4
+    // char str[100];
+    // scanf("%s",str);
+
+
+    return 0;
+}
